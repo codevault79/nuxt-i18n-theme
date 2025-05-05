@@ -1,0 +1,52 @@
+{
+  "name": "@codevault79/nuxt-i18n-theme",
+  "private": false,
+  "version": "1.0.0",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "typescript",
+    "i18n",
+    "localization",
+    "theme"
+  ],
+  "author": "Ahmad Shuami <codevault79@gmail.com>",
+  "license": "MIT",
+  "description": "Vue-i18n and theme mode support for Nuxt 3 applications.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevault79/nuxt-i18n-theme.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.4",
+    "vite-plugin-dts": "^4.5.3"
+  },
+  "dependencies": {
+    "vue-i18n": "^11.1.3"
+  }
+}
