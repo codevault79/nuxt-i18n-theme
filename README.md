@@ -24,7 +24,7 @@ In your project (plugins, store, etc)
 import { createDynamicI18n, applyThemeMode } from "@codevault79/nuxt-i18n-theme"
 
 // Initialize i18n
-const i18n = createDynamicI18n({ ms, fr }, "yourSessionStorage")
+const i18n = createDynamicI18n({ en, fr }, "yourSessionStorage")
 nuxtApp.vueApp.use(i18n)
 
 // Provide i18n globally
@@ -39,7 +39,7 @@ Example of yourSessionStorage
 
 ```json
 {
-  language: "fr",
-  themeMode: "light"
+  "language": "fr",
+  "themeMode": "light"
 }
 ```
